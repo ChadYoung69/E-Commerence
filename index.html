@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<head>
+	
+	<link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Web Layout using positioning</title>
+
+<!---------------Sidebar--------------->
+<style type="text/css">
+#sidebar {
+  display: table-cell;
+  height: 800px;
+  <!---------------Width--------------->
+  width: 200px;
+  vertical-align: 10%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#sidebar a {
+  display: block;
+  padding: 10px;
+  <!---------------Text color--------------->
+  color: black;
+  <!---------------Space Between--------------->
+  margin: 5px 0 0 0;
+  text-decoration: none;
+}
+#sidebar a:hover {
+	background-color: white;
+	color: black;
+
+}
+<!---------------Search Box--------------->
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.bottomnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bottomnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.bottomnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.bottomnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 100px)
+  .bottomnav a, .bottomnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .bottomnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</style>
+</head>
+<body>
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" width="125px">
+    </div>
+    <div class="websitename"><h1>Website N</h1>
+    <div class="ecommerence">
+      <h3>abcshfjrtgkeufde</h3>
+    </div>
+    </div>
+    <div>id=displayName</div>
+    <nav>
+      <ul>
+        <li><a href="">Messages</a></li>
+        <li><a href="">Orders</a></li>
+        <li><a href="">Account $</a></li>
+        <li><a href="">Settings</a></li>
+        <li><a href="">Logout</a></li>
+      </ul>
+    </nav>
+     <!---------------Search Box--------------->
+<div class="bottomnav">
+  <input type="text" placeholder="Search..">
+</div>
+  </div>
+
+</div>
+
+</div>
+
+<!---------------Horizontal Line--------------->
+  <div class="nope">Hellow</div>
+ <hr/>
+ <div class="nope">World</div>
+
+
+	<h7>Shop by Catagory</h7>
+  <div id="sidebar">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+    <a href="#">Link 6</a>
+    <a href="#">Link 7</a>
+    <a href="#">Link 8</a>
+    <a href="#">Link 9</a>
+    <a href="#">Link 10</a>
+    <a href="#">Link 11</a>
+    <a href="#">Link 12</a>
+    <a href="#">Link 13</a>
+    <a href="#">Link 14</a>
+    <a href="#">Link 15</a>
+    <a href="#">Link 16</a>
+    <a href="#">Link 17</a>
+    <a href="#">Link 18</a>
+    <a href="#">Link 19</a>
+    <a href="#">Link 20</a>
+
+  </div>
+	</div>
+
+
+
+
+  <!---------------Products--------------->
+  <!---------------Row 1--------------->
+  <div class="body">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-4">
+  <!---------------Products--------------->
+        <img src="images/product-1.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-2.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-0"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-3.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-4.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+    </div>
+  </div>
+	
+  <!---------------Products--------------->
+  <!---------------Row 2--------------->
+  <div class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-5.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-6.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-7.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-8.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+    </div>
+  </div>
+  
+<!---------------Products--------------->
+  <!---------------Row 3--------------->
+<div class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-9.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-10.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-11.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-12.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+    </div>
+  </div>
+  
+
+<!---------------Products--------------->
+  <!---------------Row 4--------------->
+<div class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-13.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-14.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-15.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-16.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+    </div>
+  </div>
+  
+  <!---------------Products--------------->
+  <!---------------Row 5--------------->
+  
+  <div class="small-container">
+    <div class="row">
+      <div class="col-4">
+  <!---------------Products--------------->
+        <img src="images/product-17.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-18.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-0"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-19.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+  <!---------------Products--------------->
+      <div class="col-4">
+        <img src="images/product-20.jpg">
+        <h4>Product Name</h4>
+       
+  <!---------------Vender Rating System--------------->
+        <div class="venderrating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+         <p>$50.00</p>
+      </div>
+    </div>
+  </div>
+  
+
+
+</body>
+</html>
